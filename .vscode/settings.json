@@ -2,5 +2,6 @@
     "editor.guides.indentation": true,
     "files.exclude": {
         "**/.git": false
-    }
+    },
+    "git.enableCommitSigning": false
 }
