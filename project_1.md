@@ -43,20 +43,18 @@
 <<-----------------------------------------CSS------------------------------------------------>>
 
  *{
-   box-sizing: border-box;
-}
+   box-sizing: border-box;}
 
 body {
    margin: 0;
    font-family: system-ui, sans-serif;
    color: black;
-   background-color: white;
- }
-
+   background-color: white; }
  
+
 html {
-    margin: 0;
-}
+    margin: 0;}
+
 
  span {
     display: block;
@@ -74,12 +72,12 @@ html {
  }
 
  #Grey{
-    background-color: grey;
- }
+    background-color: grey; }
+ 
 
  #Red {
-    background-color: red;
- }
+    background-color: red; }
+ 
 
  #Blue {
     background-color: blue;
@@ -109,8 +107,6 @@ html {
    text-align: center;
    text-decoration: none;
    color: rgb(0, 0, 0);
-
-
   }
 
   #homes{
@@ -118,9 +114,6 @@ html {
    background-color: rgb(158, 228, 239);
   }
     
-
-
-
 <<-----------------------------------------Javascript-------------------------------------------------->>
 
      const color = document.querySelectorAll('.button');
