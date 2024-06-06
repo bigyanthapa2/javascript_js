@@ -40,7 +40,7 @@
 
 
 
-<<-----------------------------------------CSS------------------------------------------------------------------------>>
+<<-----------------------------------------CSS------------------------------------------------>>
 
  *{
    box-sizing: border-box;
@@ -121,29 +121,28 @@ html {
 
 
 
-<<-----------------------------------------Javascript-------------------------------------------------------->>
+<<-----------------------------------------Javascript-------------------------------------------------->>
 
+     const color = document.querySelectorAll('.button');
+    const body = document.querySelector('body');
 
-const color = document.querySelectorAll('.button');
-const body = document.querySelector('body');
-
- color.forEach(function (button) {
-    console.log(button);
-    button.addEventListener('click', function (f){
-        console.log(f)
-        console.log(f.target)
+     color.forEach(function (button) {
+     console.log(button);
+      button.addEventListener('click', function (f){
+          console.log(f)
+         console.log(f.target)
      
-        if( f.target.id === 'Grey'){
+          if( f.target.id === 'Grey'){
             body.style.backgroundColor = f.target.id;
-        }
-        if( f.target.id === 'Blue'){
+         }
+          if( f.target.id === 'Blue'){
             body.style.backgroundColor = f.target.id;
-        }
-        if( f.target.id === 'Red'){
+         }
+          if( f.target.id === 'Red'){
             body.style.backgroundColor = f.target.id;
-        }
-        if( f.target.id === 'Yellow'){
+         }
+          if( f.target.id === 'Yellow'){
             body.style.backgroundColor = f.target.id;
-        }
-    })
-} );
+          }
+         })
+            });
