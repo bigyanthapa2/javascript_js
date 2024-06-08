@@ -3,5 +3,6 @@
     "files.exclude": {
         "**/.git": false
     },
-    "git.enableCommitSigning": false
+    "git.enableCommitSigning": false,
+    "liveServer.settings.multiRootWorkspaceName": "javascript_datatypes"
 }
