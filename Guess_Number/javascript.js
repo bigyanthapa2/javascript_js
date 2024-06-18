@@ -144,7 +144,7 @@ if (playGame) {
 
 function validateGuess(guess) {
   if (isNaN(guess)) {
-    alert('Please enter a valid number');
+    alert('Please enter a correct number');
   } else if (guess < 1) {
     alert('Please enter a number more than 1');
   } else if (guess > 100) {
