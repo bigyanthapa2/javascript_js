@@ -1,0 +1,27 @@
+
+
+   .parent{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+   }
+
+
+ 
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: crimson;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 600px ){
+    .box{
+        background-color: blue;
+        
+    }
+}
